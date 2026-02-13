@@ -1,0 +1,151 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beauty Studio </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome (Facebook icon) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #fdfafa;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+            url('https://images.unsplash.com/photo-1522337360788-8b13dee7a37e') center/cover no-repeat;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: #d6b1a3;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 500;
+        }
+
+        section {
+            padding: 80px 10%;
+            text-align: center;
+        }
+
+        section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            margin-bottom: 40px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+        }
+
+        .service-box {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        .about {
+            background-color: #f6efec;
+        }
+
+        /* Facebook icon */
+        .facebook-icon {
+            font-size: 36px;
+            color: #1877f2;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .facebook-icon:hover {
+            transform: scale(1.2);
+            color: #d6b1a3;
+        }
+
+        footer {
+            background-color: #222;
+            color: #ccc;
+            padding: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div>
+        <h1>Beauty Studio </h1>
+        <p>Care. Beauty. Confidence.</p>
+        <a href="#contact" class="btn">Book an Appointment</a>
+    </div>
+</header>
+
+<section>
+    <h2>Services</h2>
+    <div class="services">
+        <div class="service-box">
+            <h3>Nails</h3>
+            <p>Manicure, gel polish, and custom nail art.</p>
+        </div>
+        <div class="service-box">
+            <h3>Eyelashes</h3>
+            <p>Natural and volume lash techniques.</p>
+        </div>
+        <div class="service-box">
+            <h3>Eyebrows</h3>
+            <p>Eyebrow shaping and tinting.</p>
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <h2>About Us</h2>
+    <p>
+        Beauty Studio  is a place where beauty is treated with care and style.
+        Our goal is for every client to feel confident, relaxed, and beautiful.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Appointments and inquiries via Facebook</p>
+
+    <a href="https://www.facebook.com/beautystudio16k" target="_blank">
+        <i class="fa-brands fa-facebook facebook-icon"></i>
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Beauty Studio </p>
+</footer>
+
+</body>
+</html>
